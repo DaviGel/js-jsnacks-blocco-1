@@ -4,7 +4,7 @@
 Il programma stampa la somma di tutti i numeri inseriti */
 
 let numero = 0;
-let inputNumero;
+let inputNumero = 0;
 
 for (let i = 0; i < 10; i++) {
   inputNumero = Number(prompt('Inserisci un numero:'));
