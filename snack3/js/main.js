@@ -8,8 +8,7 @@ let inputNumero;
 
 for (let i = 0; i < 10; i++) {
   inputNumero = Number(prompt('Inserisci un numero:'));
-  console.log(`Il numero inserito è: ${inputNumero}`);
   numero += inputNumero;
 }
 
-console.log(numero);
+console.log(`La somma dei numeri è ${numero}`);
