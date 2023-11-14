@@ -12,5 +12,5 @@ for (let i = 0; i < N; i++) {
   for (let c = 0; c < 10; c++) {
     array[c] = Math.floor(Math.random() * 100) + 1;
   }
-  console.log(array);
+  alert(array);
 }
